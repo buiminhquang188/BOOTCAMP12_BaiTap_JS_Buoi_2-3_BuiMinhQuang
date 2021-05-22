@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- BÀI 1  -->
+    <h1>Bài 1: Tính tiền lương nhân viên</h1>
+    <h2>Sơ đồ 3 khối</h2>
+    <p>Bước 1: Input</p>
+    <ul>
+      <li>luongMotngay, soNgayLam</li>
+    </ul>
+    <p>Bước 2: Handle</p>
+    <ul>
+      <li>Tạo biến luongMotNgay, soNgayLamViec, luongThucNhan</li>
+      <li>Tính luongThucNhan = luongMotNgay * soNgayLamViec</li>
+    </ul>
+    <p>Bước 3: Output</p>
+    <ul>
+      <li>Xuất tiền lương thực nhận</li>
+    </ul>
+    <br />
+    <form>
+      <div class="form-group">
+        <label for="">Nhập số ngày làm việc</label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số ngày"
+          id="soNgayLam"
+        />
+      </div>
+      <input
+        name=""
+        id="btnBai1"
+        class="btn btn-primary"
+        type="button"
+        value="Tính"
+      />
+      <p id="ketQuaBai1"></p>
+    </form>
+    <br />
+    <!-- BÀI 2 -->
+    <h1>Bài 2: Tính giá trị trung bình của 5 số</h1>
+    <h2>Sơ đồ 3 khối</h2>
+    <p>Bước 1: Input</p>
+    <ul>
+      <li>Giá trị của 5 số thực</li>
+    </ul>
+    <p>Bước 2: Handle</p>
+    <ul>
+      <li>
+        Tạo biến soThuNhat, soThuHai, soThuBa, soThuTu, soThuNam,
+        giaTriTrungBinh
+      </li>
+      <li>Tính giá trị trung bình: giaTriTrungBinh = (a+b+c+d+e)/5</li>
+    </ul>
+    <p>Bước 3: Output</p>
+    <ul>
+      <li>Xuất giá trị trung bình</li>
+    </ul>
+    <form>
+      <div class="form-group">
+        <label for="">Nhập 5 số</label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số thứ 1"
+          id="soThuNhat"
+        />
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số thứ 2"
+          id="soThuHai"
+        />
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số thứ 3"
+          id="soThuBa"
+        />
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số thứ 4"
+          id="soThuTu"
+        />
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số thứ 5"
+          id="soThuNam"
+        />
+      </div>
+      <input
+        name=""
+        id="btnBai2"
+        class="btn btn-primary"
+        type="button"
+        value="Tính"
+      />
+      <p id="ketQuaBai2"></p>
+    </form>
+    <!-- BÀI 3  -->
+    <h1>Bài 3: Quy đổi tiền</h1>
+    <h2>Sơ đồ 3 khối</h2>
+    <p>Bước 1: Input</p>
+    <ul>
+      <li>giaTriUSD, soTienQuyDoi</li>
+    </ul>
+    <p>Bước 2: Handle</p>
+    <ul>
+      <li>Tạo biến giaTriUSD, soTienCanQuyDoi, soTienSauQuyDoi</li>
+      <li>
+        Tính số tiền cần quy đổi: soTienSauQuyDoi = soTienCanQuyDoi * giaTriUSD;
+      </li>
+    </ul>
+    <!-- BÀI 3  -->
+    <p>Bước 3: Output</p>
+    <ul>
+      <li>Số tiền sau quy đổi</li>
+    </ul>
+    <form>
+      <div class="form-group">
+        <label for="">Nhập số tiền muốn quy đổi</label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Số tiền"
+          id="soTienCanQuyDoi"
+        />
+      </div>
+      <input
+        name=""
+        id="btnBai3"
+        class="btn btn-primary"
+        type="button"
+        value="Tính"
+      />
+      <p id="ketQuaBai3"></p>
+    </form>
+    <!-- BÀI 4  -->
+    <h1>Bài 4: Tính diện tích, chu vi hình chữ nhật</h1>
+    <h2>Sơ đồ 3 khối</h2>
+    <p>Bước 1: Input</p>
+    <ul>
+      <li>chieuDai, chieuRong;</li>
+    </ul>
+    <p>Bước 2: Handle</p>
+    <ul>
+      <li>Tạo biến chieuDai, chieuRong, dienTich, chuVi</li>
+      <li>Tính diện tích: dienTich = chieuDai * chieuRong;</li>
+      <li>Tính chu vi: dienTich = (chieuDai + chieuRong) * 2;</li>
+    </ul>
+    <p>Bước 3: Output</p>
+    <ul>
+      <li>Xuất diện tích, chu vi</li>
+    </ul>
+    <form>
+      <div class="form-group">
+        <label for="">Nhập chiều dài</label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Chiều dài"
+          id="chieuDai"
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Nhập chiều rộng</label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="Chiều rộng"
+          id="chieuRong"
+        />
+      </div>
+      <input
+        name=""
+        id="btnBai4"
+        class="btn btn-primary"
+        type="button"
+        value="Tính"
+      />
+      <p id="ketQuaDienTich"></p>
+      <p id="ketQuaChuVi"></p>
+    </form>
+    <!-- BÀI 5 -->
+    <h1>Bài 5: Tính tổng 2 ký số</h1>
+    <h2>Sơ đồ 3 khối</h2>
+    <p>Bước 1: Input</p>
+    <ul>
+      <li>haiChuSo, soHangDv, soHangChuc</li>
+    </ul>
+    <p>Bước 2: Handle</p>
+    <ul>
+      <li>Tạo biến haiChuSo, soHangDV, soHangChuc, ketQua;</li>
+      <li>Tính số hàng đơn vị: soHangDV = haiChuSo%10;</li>
+      <li>Tính số hàng chục: soHangChuc = haiChuSo/10;</li>
+    </ul>
+    <p>Bước 3: Output</p>
+    <ul>
+      <li>Kết quả tổng hai số.</li>
+    </ul>
+    <form>
+      <div class="form-group">
+        <label for="">Nhập số (2 chữ số): </label>
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="2 chữ số"
+          id="haiChuSo"
+        />
+      </div>
+      <input
+        name=""
+        id="btnBai5"
+        class="btn btn-primary"
+        type="button"
+        value="Tính"
+      />
+      <p id="ketQuaBai5"></p>
+    </form>
+    <!-- MAIN JS -->
+    <script src="index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
