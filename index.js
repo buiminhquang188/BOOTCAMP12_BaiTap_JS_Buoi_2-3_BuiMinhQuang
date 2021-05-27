@@ -56,6 +56,6 @@ btnBai5.onclick = function () {
     var haiChuSo = document.getElementById('haiChuSo').value;
     var soHangDV = haiChuSo % 10;
     var soHangChuc = haiChuSo / 10;
-    var ketQua = soHangChuc + soHangDV;
-    ketQuaBai5.innerHTML = 'Tổng 2 ký số ' + haiChuSo + ' là: ' + parseInt(ketQua);
+    var ketQua = parseInt(soHangChuc) + Math.abs(soHangDV);
+    ketQuaBai5.innerHTML = 'Tổng 2 ký số ' + haiChuSo + ' là: ' + ketQua;
 }
